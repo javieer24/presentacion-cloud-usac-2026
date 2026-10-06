@@ -7,9 +7,7 @@ Presentación técnica sobre arquitectura cloud, modelos de despliegue, servicio
 ## Información General
 
 **Institución**: USAC - Facultad de Ingeniería, Escuela de Ciencias y Sistemas (CYS)  
-**Expositor**: Javier Andrés Monjes Solórzano  
-**Duración**: 1 hora 40 minutos  
-**Nivel**: Intermedio a Avanzado  
+**Expositor**: Javier Andrés Monjes Solórzano   
 **Requisitos**: Conocimientos básicos de redes y Linux (opcional)
 
 ---
@@ -20,7 +18,7 @@ Presentación técnica sobre arquitectura cloud, modelos de despliegue, servicio
 Estás aquí. Este archivo explica la estructura y cómo navegar los recursos.
 
 ### Paso 2: Comienza Aquí (10 minutos)
-Lee [docs/COMIENZA_AQUI.md](docs/COMIENZA_AQUI.md) para:
+Lee [COMIENZA_AQUI.md](COMIENZA_AQUI.md) para:
 - Determinar tu perfil (estudiante, profesional, aspirante a certificación)
 - Entender qué documentación es más relevante para ti
 - Ver el nivel de dificultad de cada recurso
@@ -28,7 +26,7 @@ Lee [docs/COMIENZA_AQUI.md](docs/COMIENZA_AQUI.md) para:
 ### Paso 3: Selecciona Tu Ruta
 
 **Opción A: Solo Presentación**
-1. Revisa la presentación 
+1. Revisa la presentación interactiva (disponible en Artifact Slides)
 2. Consulta el glosario técnico si encuentras términos desconocidos
 3. Listo
 
@@ -51,19 +49,20 @@ Lee [docs/COMIENZA_AQUI.md](docs/COMIENZA_AQUI.md) para:
 
 ```
 presentacion-cloud-usac-2026/
-|
-├── README.md (este archivo - índice oficial)
-├── .gitignore (configuración git segura)
-|
+│
+├── INDEX.md (este archivo)
+├── COMIENZA_AQUI.md (guía de bienvenida)
+├── README.md (descripción general)
+├── .gitignore (configuración git)
+│
 ├── docs/ (documentación oficial)
-│   ├── COMIENZA_AQUI.md (guía de bienvenida)
 │   ├── glosario-tecnico.md (50+ términos AWS)
 │   ├── analisis-costos.md (desglose presupuestario)
 │   ├── checklist-arquitectura.md (100+ puntos validación)
 │   ├── referencias-recursos.md (cursos, libros, links)
 │   ├── diagramas-arquitectura.md (10 diagramas Mermaid)
 │   └── guion-orador.md (notas instructor)
-|
+│
 ├── backends/ (servicios funcionales)
 │   ├── README.md (instrucciones setup)
 │   ├── python/
@@ -72,7 +71,7 @@ presentacion-cloud-usac-2026/
 │   └── nodejs/
 │       ├── package.json (dependencias)
 │       └── server.js (API auditoría)
-|
+│
 └── presentation-slides.md (referencia slides)
 ```
 
@@ -84,32 +83,77 @@ presentacion-cloud-usac-2026/
 
 | Archivo | Duración | Contenido | Para Quién |
 |---------|----------|----------|-----------|
-| docs/COMIENZA_AQUI.md | 10 min | Guía de navegación | Todos |
-| docs/glosario-tecnico.md | 30 min | 50+ definiciones AWS | Principiantes |
-| docs/diagramas-arquitectura.md | 45 min | 10 diagramas Mermaid | Visuales |
-| docs/referencias-recursos.md | 1 hora | Cursos, libros, links | Autodidactas |
+| COMIENZA_AQUI.md | 10 min | Guía de navegación | Todos |
+| glosario-tecnico.md | 30 min | 50+ definiciones AWS | Principiantes |
+| diagramas-arquitectura.md | 45 min | 10 diagramas Mermaid | Visuales |
+| referencias-recursos.md | 1 hora | Cursos, libros, links | Autodidactas |
 
 ### Documentos para Profundizar
 
 | Archivo | Duración | Contenido | Para Quién |
 |---------|----------|----------|-----------|
-| docs/analisis-costos.md | 45 min | Presupuestos AWS detallados | Arquitectos, Finance |
-| docs/checklist-arquitectura.md | 2 horas | 100+ puntos validación | Arquitectos, DevOps |
-| docs/diagramas-arquitectura.md | Referencia | Arquitectura visual | Técnicos |
+| analisis-costos.md | 45 min | Presupuestos AWS detallados | Arquitectos, Finance |
+| checklist-arquitectura.md | 2 horas | 100+ puntos validación | Arquitectos, DevOps |
+| diagramas-arquitectura.md | Referencia | Arquitectura visual | Técnicos |
+
+### Documentos de Referencia
+
+| Archivo | Contenido | Para Quién |
+|---------|----------|-----------|
+| guion-orador.md | Notas detalladas instructor | Instructores |
+| backends/README.md | Setup backends Python/Node | Desarrolladores |
 
 ---
 
-## Quick Start
+## Guía Paso a Paso por Nivel
 
-### Para Aprendizaje
+### Nivel 1: Principiante Absoluto
 
-```
-1. Lee docs/COMIENZA_AQUI.md (tu guía de navegación)
-2. Elige una de las 3 opciones de ruta
-3. Sigue el flujo de aprendizaje sugerido
-```
+**Objetivo**: Entender conceptos básicos cloud  
+**Tiempo**: 1-2 horas  
+**Pasos**:
 
-### Para Ejecutar Backends
+1. Lee COMIENZA_AQUI.md
+2. Lee glosario-tecnico.md (enfoque en: VPC, EC2, RDS, S3)
+3. Mira diagramas-arquitectura.md (enfoque en diagramas 1-3)
+4. Consulta referencias-recursos.md (sección "Conceptos Fundamentales")
+
+### Nivel 2: Intermedio
+
+**Objetivo**: Comprender arquitecturas escalables  
+**Tiempo**: 4-6 horas  
+**Pasos**:
+
+1. Completa Nivel 1
+2. Estudia analisis-costos.md (sección "Supuestos Base")
+3. Revisa checklist-arquitectura.md (sección "Networking")
+4. Mira diagramas 4-7 en diagramas-arquitectura.md
+5. Intenta ejercicios básicos con backends
+
+### Nivel 3: Avanzado
+
+**Objetivo**: Diseñar y validar arquitecturas  
+**Tiempo**: 8-12 horas  
+**Pasos**:
+
+1. Completa Niveles 1-2
+2. Domina analisis-costos.md (todas las secciones)
+3. Domina checklist-arquitectura.md (todas las secciones)
+4. Revisa todos los diagramas (1-10)
+5. Implementa backends completos (Python + Node.js)
+6. Crea tu propia arquitectura y valida con checklist
+
+---
+
+## Usando los Backends
+
+### Requisitos
+
+- Python 3.9+ (para backend Python)
+- Node.js 16+ (para backend Node.js)
+- Credenciales AWS (sin hardcode, usar ~/.aws/credentials)
+
+### Quick Start
 
 ```bash
 # Backend Python (Terminal 1)
@@ -132,7 +176,7 @@ Ver [backends/README.md](backends/README.md) para instrucciones completas.
 ```
 Inicio
   |
-  +---> docs/COMIENZA_AQUI.md (¿Quién eres?)
+  +---> COMIENZA_AQUI.md (¿Quién eres?)
   |
   +---> Glosario Técnico (Conceptos)
   |
@@ -192,7 +236,7 @@ Fin
 ## Preguntas Frecuentes
 
 **P: ¿Puedo leer esto sin haber asistido a la presentación?**  
-R: Sí. La documentación es autocontenida. Comienza con docs/COMIENZA_AQUI.md.
+R: Sí. La documentación es autocontenida. Comienza con COMIENZA_AQUI.md.
 
 **P: ¿Cuánto tiempo debo dedicar?**  
 R: Depende de tu nivel. Principiantes: 1-2 horas. Avanzado: 8-12 horas completas.
@@ -201,10 +245,20 @@ R: Depende de tu nivel. Principiantes: 1-2 horas. Avanzado: 8-12 horas completas
 R: Solo si quieres ejecutar los backends. Los documentos no requieren acceso AWS.
 
 **P: ¿Hay ejercicios?**  
-R: Sí. Ver docs/COMIENZA_AQUI.md sección "Ejercicios Prácticos".
+R: Sí. Ver COMIENZA_AQUI.md sección "Ejercicios Prácticos".
 
 **P: ¿Puedo usar esto para preparar SAA-C03?**  
 R: Sí. Esta presentación cubre 70% del contenido. Complementa con cursos certificación.
+
+---
+
+## Convenciones del Documento
+
+- **Negrita**: Términos o conceptos importantes
+- `Código`: Comandos, variables, rutas
+- [Enlaces]: Referencias a otros documentos
+- Tablas: Comparativas y referencias rápidas
+- Sin emojis: Formato profesional técnico
 
 ---
 
@@ -212,13 +266,23 @@ R: Sí. Esta presentación cubre 70% del contenido. Complementa con cursos certi
 
 **Instructor**: Javier Andrés Monjes Solórzano  
 **Especialidad**: Cloud Security, AWS Architecture  
+**Email**: javiermonjesnuevo@gmail.com
 
 Para preguntas:
-1. Consulta primero docs/COMIENZA_AQUI.md
-2. Busca en docs/glosario-tecnico.md
-3. Revisa docs/referencias-recursos.md
+1. Consulta primero COMIENZA_AQUI.md
+2. Busca en glosario-tecnico.md
+3. Revisa referencias-recursos.md
 4. Contacta con instructor
 
 ---
-**Última actualización**: Octubre 2026  
 
+## Roadmap de Actualización
+
+- Version 1.0: Documentación oficial y backends
+- Próximas: Ejercicios adicionales, videos, webinars
+
+---
+
+**Última actualización**: Octubre 2026  
+**Versión**: 1.0 - Oficial  
+**Estado**: Listo para uso en producción académica

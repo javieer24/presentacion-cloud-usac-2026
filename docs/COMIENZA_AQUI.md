@@ -1,10 +1,10 @@
-# 🚀 Comienza Aquí - Ecosistema Cloud 2026
+# Comienza Aquí - Ecosistema Cloud 2026
 
 Bienvenido a la presentación técnica **"Ecosistema Cloud 2026: Arquitectura y Estrategia Multicloud"**. Esta guía te ayudará a navegar los materiales disponibles.
 
 ---
 
-## 📖 Por Dónde Empezar
+## Por Dónde Empezar
 
 ### Si asististe a la presentación:
 1. **Revisa la presentación interactiva** (disponible en Artifact Slides)
@@ -26,7 +26,7 @@ Bienvenido a la presentación técnica **"Ecosistema Cloud 2026: Arquitectura y 
 
 ---
 
-## 📚 Documentación Oficial
+## Documentación Oficial
 
 | Recurso | Duración | Para Quién | Objetivo |
 |---|---|---|---|
@@ -37,41 +37,41 @@ Bienvenido a la presentación técnica **"Ecosistema Cloud 2026: Arquitectura y 
 
 ---
 
-## 🎯 Temas Principales Cubiertos
+## Temas Principales Cubiertos
 
-### 1️⃣ Fundamentos Cloud
+### 1. Fundamentos Cloud
 - ¿Qué es Cloud Computing?
 - CAPEX vs OPEX (modelo de negocio)
 - Características fundamentales (escalabilidad, elasticidad, automatización)
 
-### 2️⃣ Modelos de Despliegue
+### 2. Modelos de Despliegue
 - **Nube Pública**: AWS, Azure, GCP (compartida, bajo costo)
 - **Nube Privada**: On-premise, dedicada (control total, costo alto)
 - **Nube Híbrida**: Combinación (flexibilidad)
 - **Multinube**: AWS + Azure + GCP (evitar lock-in)
 
-### 3️⃣ Modelos de Servicio
+### 3. Modelos de Servicio
 | Modelo | Quién Gestiona | Ejemplo | Complejidad |
 |---|---|---|---|
 | **IaaS** | Cliente gestiona SO, app, datos | AWS EC2 | Alta |
 | **PaaS** | Proveedor gestiona hasta runtime | Heroku, Beanstalk | Media |
 | **SaaS** | Proveedor gestiona todo | Salesforce, Slack | Baja |
 
-### 4️⃣ Comparativa Multicloud
+### 4. Comparativa Multicloud
 | Aspecto | AWS | Azure | GCP |
 |---|---|---|---|
 | Market Share | 32% | 20% | 15% |
 | Fortaleza | Catálogo, comunidad | Microsoft integration | AI/ML |
 | Mejor para | Startups, escalabilidad | Enterprise .NET | Data Science |
 
-### 5️⃣ Arquitectura de Redes (CRÍTICA)
+### 5. Arquitectura de Redes (CRÍTICA)
 - **VPC**: Red privada aislada
 - **Subredes**: Públicas (IGW) vs Privadas (NAT)
 - **Security Groups**: Firewall stateful por instancia
 - **Route Tables**: Reglas de ruteo de tráfico
 - **High Availability**: Multi-AZ redundancia
 
-### 6️⃣ Caso Práctico: FinTech
+### 6. Caso Práctico: FinTech
 **Arquitectura completa para procesamiento de pagos**:
 - Frontend: ALB + WAF (subred pública)
 - Aplicación: ASG (Auto Scaling) (subred privada)
@@ -81,32 +81,32 @@ Bienvenido a la presentación técnica **"Ecosistema Cloud 2026: Arquitectura y 
 
 ---
 
-## 🔍 Búsqueda Rápida por Tema
+## Búsqueda Rápida por Tema
 
-**¿Necesitas información sobre...?**
+¿Necesitas información sobre...?
 
-- **VPC** → Glosario (VPC, Subnets, Route Table) o Checklist (Networking)
-- **Costo de EC2** → Análisis de Costos (sección Cómputo)
-- **Seguridad en RDS** → Checklist (sección Base de Datos)
-- **Certificación AWS** → Referencias (sección Certificaciones)
-- **Cursos online** → Referencias (sección Plataformas)
-- **Mejores prácticas** → Checklist (sección Alta Disponibilidad)
-
----
-
-## 📊 Nivel de Dificultad por Documento
-
-```
-Glosario:         ⭐☆☆☆☆ (Principiante)
-Referencias:      ⭐⭐☆☆☆ (Principiante+)
-Análisis Costos:  ⭐⭐⭐☆☆ (Intermedio)
-Checklist:        ⭐⭐⭐⭐☆ (Intermedio+)
-Presentación:     ⭐⭐⭐⭐⭐ (Avanzado)
-```
+- **VPC** -> Glosario (VPC, Subnets, Route Table) o Checklist (Networking)
+- **Costo de EC2** -> Análisis de Costos (sección Cómputo)
+- **Seguridad en RDS** -> Checklist (sección Base de Datos)
+- **Certificación AWS** -> Referencias (sección Certificaciones)
+- **Cursos online** -> Referencias (sección Plataformas)
+- **Mejores prácticas** -> Checklist (sección Alta Disponibilidad)
 
 ---
 
-## 🎓 Ejercicios Prácticos Recomendados
+## Nivel de Dificultad por Documento
+
+```
+Glosario:         Nivel 1 (Principiante)
+Referencias:      Nivel 2 (Principiante+)
+Análisis Costos:  Nivel 3 (Intermedio)
+Checklist:        Nivel 4 (Intermedio+)
+Presentación:     Nivel 5 (Avanzado)
+```
+
+---
+
+## Ejercicios Prácticos Recomendados
 
 ### Ejercicio 1: VPC Multi-AZ
 **Objetivo**: Crear red privada con subredes públicas y privadas  
@@ -132,7 +132,7 @@ Presentación:     ⭐⭐⭐⭐⭐ (Avanzado)
 
 ---
 
-## 🛠️ Herramientas que Necesitarás
+## Herramientas que Necesitarás
 
 | Herramienta | Para Qué | Costo | Descarga |
 |---|---|---|---|
@@ -143,7 +143,7 @@ Presentación:     ⭐⭐⭐⭐⭐ (Avanzado)
 
 ---
 
-## 📈 Ruta de Aprendizaje Sugerida (4 Semanas)
+## Ruta de Aprendizaje Sugerida (4 Semanas)
 
 ### Semana 1: Conceptos Fundamentales
 - [ ] Lee Glosario Técnico (30 min)
@@ -168,7 +168,7 @@ Presentación:     ⭐⭐⭐⭐⭐ (Avanzado)
 
 ---
 
-## ❓ Preguntas Frecuentes
+## Preguntas Frecuentes
 
 **P: ¿Necesito experiencia previa en AWS?**  
 R: No, la presentación comienza desde conceptos básicos. Sí ayuda conocer redes básicas (IP, TCP/UDP).
@@ -187,7 +187,7 @@ R: Sí, ejemplos en la carpeta `src/terraform/` (en desarrollo).
 
 ---
 
-## 📞 Contacto & Soporte
+## Contacto y Soporte
 
 **Instructor**: Javier Andrés Monjes Solórzano  
 **Rol**: SOC Analyst & Blue Team Consultant  
@@ -200,7 +200,7 @@ Para preguntas específicas sobre los materiales:
 
 ---
 
-## ✅ Checklist Para Completar Curso
+## Checklist Para Completar Curso
 
 - [ ] Leí el Glosario Técnico
 - [ ] Ví la presentación completa (100 min)

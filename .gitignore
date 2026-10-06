@@ -1,0 +1,108 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+.env.example
+*.pem
+*.key
+
+# Credentials & Secrets
+.aws/
+AWS_*
+aws_access_key*
+credentials.json
+secrets.json
+private_key*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+venv/
+env/
+ENV/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.eslintcache
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.c9/
+
+# Logs
+logs/
+*.log
+access.log
+error.log
+
+# OS
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.backup
+*~
+
+# Build artifacts
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+database.db
+
+# Cache
+.cache/
+.parcel-cache/
+
+# IDE settings (local)
+.vscode/settings.json
+.idea/workspace.xml
+
+# Sensitive documentation (if needed)
+# Uncomment below to exclude local notes
+# local-notes.md
+# private-docs/
