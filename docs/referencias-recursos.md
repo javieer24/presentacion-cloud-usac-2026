@@ -2,7 +2,7 @@
 
 Compilación de recursos, documentación y referencias para profundizar en los conceptos de la presentación.
 
-## 📚 Documentación Oficial AWS
+## Documentación Oficial AWS
 
 ### General
 - [AWS Well-Architected Framework](https://docs.aws.amazon.com/wellarchitected/) - Guía de diseño para arquitecturas seguras, eficientes y escalables
@@ -43,7 +43,7 @@ Compilación de recursos, documentación y referencias para profundizar en los c
 - [CloudTrail Documentation](https://docs.aws.amazon.com/cloudtrail/) - Auditoría de API calls
 - [VPC Flow Logs](https://docs.aws.amazon.com/vpc/latest/userguide/flow-logs.html) - Análisis de tráfico red
 
-## 🏆 Certificaciones AWS
+## Certificaciones AWS
 
 ### AWS Solutions Architect Associate (SAA-C03)
 **Requisito**: 130 minutos, 65 preguntas  
@@ -65,7 +65,7 @@ Compilación de recursos, documentación y referencias para profundizar en los c
 **Costo**: $100 USD  
 **Tópicos básicos**: Conceptos cloud, servicios AWS, seguridad, precios
 
-## 🛠️ Herramientas & Frameworks
+## Herramientas & Frameworks
 
 ### Infrastructure as Code (IaC)
 
@@ -111,7 +111,7 @@ resource "aws_subnet" "public" {
 - [Prowler](https://github.com/prowler-cloud/prowler) - AWS security audit (open source)
 - [CloudMapper](https://github.com/duo-labs/cloudmapper) - Visualización de redes
 
-## 📖 Libros Recomendados
+## Libros Recomendados
 
 | Libro | Autor | Objetivo | Nivel |
 |---|---|---|---|
@@ -121,7 +121,7 @@ resource "aws_subnet" "public" {
 | **Terraform: Up & Running** | Yevgeniy Brikman | IaC con Terraform | Intermedio |
 | **The Phoenix Project** | Gene Kim | DevOps y cultura | Ejecutivo |
 
-## 🎓 Cursos Online
+## Cursos Online
 
 ### Plataformas
 
@@ -147,7 +147,7 @@ resource "aws_subnet" "public" {
 - [Security Engineering on AWS](https://aws.amazon.com/training/learn-security/) (AWS official)
 - [AWS Security Best Practices](https://d1.awsstatic.com/whitepapers/Security/AWS_Security_Best_Practices.pdf) (Whitepaper)
 
-## 💻 Laboratorios Hands-On
+## Laboratorios Hands-On
 
 ### AWS Oficial (Gratis)
 
@@ -170,7 +170,7 @@ resource "aws_subnet" "public" {
 7. Verificar conectividad
 **Tiempo estimado**: 2-3 horas
 
-## 🔗 Comunidades & Foros
+## Comunidades & Foros
 
 ### Oficial AWS
 
@@ -189,7 +189,7 @@ resource "aws_subnet" "public" {
 - [AWS Developers Slack](https://aws-developers.slack.com/)
 - [DevOps Slack](https://devops.com/community/) (incluye AWS channel)
 
-## 📰 Blogs & Articles
+## Blogs & Articles
 
 ### Blogs Especializados
 
@@ -205,7 +205,7 @@ resource "aws_subnet" "public" {
 - [AWS Well-Architected Framework](https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf)
 - [Disaster Recovery Strategies](https://d1.awsstatic.com/whitepapers/disaster_recovery_strategies.pdf)
 
-## 🎬 Videos & YouTube Channels
+## Videos & YouTube Channels
 
 ### Canales Recomendados
 
@@ -223,7 +223,7 @@ resource "aws_subnet" "public" {
 - [AWS Security Groups Deep Dive](https://www.youtube.com/watch?v=l0lHq5xK0cQ) (20 min)
 - [RDS Multi-AZ Failover](https://www.youtube.com/watch?v=6-8W2N5VqhQ) (8 min)
 
-## 📋 Checklists & Templates
+## Checklists & Templates
 
 ### Arquitectura
 
@@ -239,7 +239,7 @@ resource "aws_subnet" "public" {
 
 - [Pre-deployment Checklist](https://aws.amazon.com/premiumsupport/knowledge-center/) (buscar "deployment checklist")
 
-## 🧪 Prácticas Recomendadas
+## Prácticas Recomendadas
 
 ### Ejercicio 1: VPC Multi-AZ Básico
 **Objetivo**: Entender subnet pública/privada y routing  
@@ -263,7 +263,7 @@ resource "aws_subnet" "public" {
 
 ---
 
-## 📞 Soporte & Contacto
+## Soporte & Contacto
 
 ### Soporte AWS
 
