@@ -6,9 +6,8 @@ Presentación técnica sobre arquitectura cloud, modelos de despliegue, servicio
 
 ## Información General
 
-**Institución**: USAC - Facultad de Ingeniería, Escuela de Ciencias y Sistemas (CYS)  
+**Institución**: USAC - Facultad de Ingeniería, Escuela de Ciencias y Sistemas  
 **Expositor**: Javier Andrés Monjes Solórzano  
-**Duración**: 1 hora 40 minutos  
 **Nivel**: Intermedio a Avanzado  
 **Requisitos**: Conocimientos básicos de redes y Linux (opcional)
 
